@@ -1,0 +1,51 @@
+
+
+
+
+.logo {
+  font-family: $secondaryfontfamilyRaleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+  padding-top: 24px;
+   @media screen and ( max-width:1199px){
+font-size: 24px;
+   }
+
+   
+
+
+     &__text {
+  color: var(--accent-color);
+}
+
+
+    &--header{ 
+  color: #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+
+  
+  @media screen and ( min-width: 768px){
+
+    align-items: center;
+  }
+
+  
+}
+    &--footer{
+  color: #ffffff;
+  display: inline-block;
+  padding-top: 60px;
+  margin-bottom: 20px;
+
+ }
+}
+
+
+
